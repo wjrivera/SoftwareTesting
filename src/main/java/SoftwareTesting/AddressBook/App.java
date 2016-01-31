@@ -1,4 +1,4 @@
-package SoftwareTesting.SoftwareTesting;
+package SoftwareTesting.AddressBook;
 
 /**
  * Hello world!
