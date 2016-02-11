@@ -1,9 +1,15 @@
 package SoftwareTesting.AddressBook;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable{
 
 	
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3945744878539517389L;
 	private String firstName;
 	private String lastName;
 	private String address;

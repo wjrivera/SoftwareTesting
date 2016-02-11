@@ -5,7 +5,8 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class AddressBookController{
-	ArrayList<Person> entries;
+	private ArrayList<Person> entries;
+	private String title;
 	
 	public AddressBookController(){
 		 entries= new ArrayList<Person>();
@@ -68,11 +69,14 @@ public class AddressBookController{
 		
 	}
 	
-	//Unimplemented
-	public void createAddressBook(){}
-	public void loadAddressBook(){}
-	public void updateAddressBook(){}
-	public void saveAddressBook(){}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
 
 
 
