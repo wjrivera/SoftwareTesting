@@ -1,4 +1,4 @@
-package SoftwareTesting.AddressBook;
+package AddressBook;
 
 import java.io.Serializable;
 

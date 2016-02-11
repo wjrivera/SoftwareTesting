@@ -1,18 +1,13 @@
-package SoftwareTesting.SoftwareTesting;
+package SoftwareTesting;
 
-//import junit.framework.Test;
-//import junit.framework.TestCase;
-//import junit.framework.TestSuite;
 import static org.junit.Assert.*;
-import SoftwareTesting.AddressBook.Person;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
+import AddressBook.Person;
+
 public class AppTest {
 	@Before
 	public void setUp() throws Exception {

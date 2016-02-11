@@ -1,15 +1,9 @@
-package SoftwareTesting.AddressBook;
+package AddressBook;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
-        System.out.println( "Testing push from Kyle" );
         AddressBookController s=new AddressBookController();
         s.addEntry(new Person("Jason","Ricardo"));
         s.addEntry(new Person("Adam","Roberts"));

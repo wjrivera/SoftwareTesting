@@ -22,6 +22,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>SoftwareTesting</name>
+			<type>2</type>
+			<location>C:/Users/Kyle/git/SoftwareTesting/src/SoftwareTesting/SoftwareTesting</location>
+		</link>
+		<link>
 			<name>src</name>
 			<type>2</type>
 			<location>C:/Users/Kyle/git/SoftwareTesting/src</location>

@@ -1,4 +1,4 @@
-package SoftwareTesting.AddressBook;
+package AddressBook;
 
 import java.util.ArrayList;
 import java.util.Collections;
