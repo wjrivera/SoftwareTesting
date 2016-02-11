@@ -17,6 +17,11 @@ public class AddressBookController {
 	public AddressBookController() {
 		entries = new ArrayList<Person>();
 	}
+	
+	public AddressBookController(String title) {
+		entries = new ArrayList<Person>();
+		this.title = title;
+	}
 
 	public void addEntry(Person person) {
 		entries.add(person);
@@ -85,8 +90,8 @@ public class AddressBookController {
 		this.title = title;
 	}
 
-	public void saveFile(String name) throws IOException {
-		FileWriter writer = new FileWriter(name + ".txt");
+	public boolean saveFile() throws IOException {
+		FileWriter writer = new FileWriter(title + ".txt");
 
 		try {
 			for (Person person : entries) {
@@ -104,9 +109,12 @@ public class AddressBookController {
 				writer.write(System.getProperty("line.separator"));
 			}
 		} catch (NullPointerException e) {
+			writer.close();
+			return false;
 		}
 
-		writer.close();
+		writer.close();		
+		return true;
 	}
 
 }
