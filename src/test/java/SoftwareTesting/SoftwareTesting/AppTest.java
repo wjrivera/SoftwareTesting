@@ -1,5 +1,6 @@
 package SoftwareTesting.SoftwareTesting;
 
+import SoftwareTesting.AddressBook.Person;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
