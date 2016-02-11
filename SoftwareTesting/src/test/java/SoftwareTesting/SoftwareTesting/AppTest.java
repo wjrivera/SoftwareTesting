@@ -35,4 +35,19 @@ public class AppTest
     {
         assertTrue( true );
     }
+	
+	public void testPerson(){
+    	Person bobPerson = new Person("Bob", "Saget", "1000 Maple Street", "San Francisco", "CA", "55555", "1234567890");
+    	assertEquals(bobPerson.getFirstName(), "Bob");
+    	assertEquals(bobPerson.getLastName(), "Saget");
+   }
+    public void testPersonDetails(){
+    	Person bobPerson = new Person("Bob", "Saget", "1000 Maple Street", "San Francisco", "CA", "55555", "1234567890");
+    	assertEquals(bobPerson.getAddress(), "1000 Maple Street");
+    	assertEquals(bobPerson.getCity(), "San Francisco");
+    	assertEquals(bobPerson.getState(), "CA");
+    	assertEquals(bobPerson.getZip(), "55555");
+    	assertEquals(bobPerson.getPhone(), "1234567890");
+
+    }
 }
