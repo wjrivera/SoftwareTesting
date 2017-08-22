@@ -1,26 +1,18 @@
-# Material Design Template
+# Software Testing project
 
-This is a copy of a Material Design guide by Ravi Tamada from AndroidHive.
+
 
 ## Purpose
 
-Android application implementing Material Design and slider menu.
+This is a Java Address Book application for the Software Testing class.  Please see the Documentation folder for details.
 
 ## Built With
 
-* [Android Studio](https://developer.android.com/studio/index.html) - Android IDE
+* [Eclipse](https://eclipse.org/ide/) - Java IDE
 
 ## Authors
 
 * **William Rivera**
-
-## Original Work
-
-* **Ravi Tamada**
-* **April 11, 2015**
-* **Source: https://www.androidhive.info/2015/04/android-getting-started-with-material-design/**
-
-
-## Acknowledgments
-
-* Thank you Ravi Tamada for your awesome tutorial
+* **Jason Ricard**
+* **Kyle Zinsser**
+* **Kevin Zamorra**
